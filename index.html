@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Auto École Islem Jbeli in Kelibia. Professional driving lessons since 2021. Join our young team and start your journey today.">
+  <title>Auto École Islem Jbeli | Kelibia</title>
+  <link rel="icon" href="logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo"><img src="logo.jpg" alt="">Islem Jbeli</a>
+    <button id="menu-icon" class="fa-solid fa-bars" aria-label="Menu" aria-expanded="false"></button>
+    <nav class="navbar">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#team">Team</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="gauge" aria-hidden="true"></div>
+      <div class="home-img"><img src="ph1.jpg" alt="Islem Jbeli, founder and driving instructor"></div>
+      <div class="home-content">
+        <p class="kicker">Kelibia, since 2021</p>
+        <h1>Auto École Islem Jbeli</h1>
+        <h2>Drive <span class="multiple-text"></span></h2>
+        <p>High-quality driving lessons for every generation, taught by a young and passionate team. Your journey starts here.</p>
+        <div class="home-actions">
+          <a href="#contact" class="btn">Start driving</a>
+          <div class="social">
+            <a href="https://www.instagram.com/explore/locations/1144028459033689/auto-ecole-islem-jbeli/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/autoecolekelibia/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@islemjbeli" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://maps.app.goo.gl/oJpNJb5vSm3BsXeF6" aria-label="Map"><i class="fa-solid fa-location-dot"></i></a>
+            <a href="tel:+21623910106" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about light" id="about">
+      <div class="about-img"><img src="ph2.jpg" alt="Our students holding their results"></div>
+      <div class="about-content">
+        <h2 class="heading">About us</h2>
+        <p class="lead">We guide each student step by step, from the very first lesson to confident, independent driving.</p>
+        <p>Learning to drive is not only about passing an exam. It is about confidence, responsibility and real-life skills. Our young, dedicated team adapts to each person, so every student learns at their own pace.</p>
+        <p>With modern techniques and personal guidance, we have helped many learners reach their goals. Your journey is our priority, and your success is our pride.</p>
+        <a href="#contact" class="btn">Register now</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Three steps to your licence</h2>
+      <div class="services-container">
+        <article class="services-box"><span class="step">1</span><i class="fa-solid fa-traffic-light"></i><h3>Code</h3><p>Learn the rules of the road with our young team. Your first step to driving.</p></article>
+        <article class="services-box"><span class="step">2</span><i class="fa-solid fa-car"></i><h3>Circuit</h3><p>Build control and confidence behind the wheel. Your second step.</p></article>
+        <article class="services-box"><span class="step">3</span><i class="fa-solid fa-car-tunnel"></i><h3>Park</h3><p>Master parking and manoeuvres. Your third step to the exam.</p></article>
+      </div>
+      <img class="car" src="Subject.png" alt="Our white and red training car">
+    </section>
+
+    <section class="team light" id="team">
+      <h2 class="heading">Meet the team</h2>
+      <div class="wrapper">
+        <figure class="member"><img src="rym.jpg" alt="Rym Hmaied"><figcaption><h3>Rym Hmaied</h3><p>Administration</p></figcaption></figure>
+        <figure class="member"><img src="ph1.jpg" alt="Islem Jbeli"><figcaption><h3>Islem Jbeli</h3><p>Driving instructor</p></figcaption></figure>
+        <figure class="member"><img src="ayoub.jpg" alt="Ayoub Jacob"><figcaption><h3>Ayoub Jacob</h3><p>Driving instructor</p></figcaption></figure>
+        <figure class="member"><img src="khouloud.jpg" alt="Khouloud"><figcaption><h3>Khouloud</h3><p>Administration</p></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Register today</h2>
+      <p class="lead">Leave your details and we will call you back.</p>
+      <form id="registrationForm">
+        <input type="text" name="firstname" placeholder="First name" autocomplete="given-name" required>
+        <input type="text" name="lastname" placeholder="Last name" autocomplete="family-name" required>
+        <input type="tel" name="phone" placeholder="Phone number" autocomplete="tel" required>
+        <input type="date" name="dob" aria-label="Date of birth" required>
+        <button type="submit" class="btn">Register</button>
+        <div id="formStatus" class="form-status" role="status"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-info">
+        <a href="https://maps.app.goo.gl/oJpNJb5vSm3BsXeF6"><i class="fa-solid fa-location-dot"></i> Kelibia, Nabeul, Tunisia</a>
+        <a href="tel:+21623910106"><i class="fa-solid fa-phone"></i> +216 23 910 106</a>
+      </div>
+      <img src="logo.jpg" alt="Auto École Islem Jbeli logo" class="footer-logo">
+    </div>
+    <p class="copyright">© 2026 Auto École Islem Jbeli. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
